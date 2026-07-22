@@ -70,11 +70,11 @@ Al tratarse de un motor de validación en tiempo real (crítico para la experien
 ### Resultados Reales en Desarrollo (PoC)
 Para demostrar el comportamiento del sistema bajo su actual esquema sincrónico local, se ha ejecutado una prueba de estrés escalonada contra la API (Uvicorn + FastAPI + SQLAlchemy Sync).
 
-| Peticiones Totales | Concurrencia | Tiempo Total | Transacciones/Seg (RPS) | Tasa de Éxito |
-|--------------------|--------------|--------------|-------------------------|---------------|
-| 1,000              | 10           | 9.95 seg     | 100.49 RPS              | 100%          |
-| 5,000              | 20           | 46.97 seg    | 106.46 RPS              | 100%          |
-| 10,000             | 30           | 92.86 seg    | 107.69 RPS              | 100%          |
+| Peticiones Totales | Concurrencia | Tiempo Total | Transacciones/Seg (RPS) |
+|--------------------|--------------|--------------|-------------------------|
+| 1,000              | 10           | 9.95 seg     | 100.49 RPS              |
+| 5,000              | 20           | 46.97 seg    | 106.46 RPS              |
+| 10,000             | 30           | 92.86 seg    | 107.69 RPS              |
 
 *Hardware utilizado para el test: 2 Cores CPU, 2 GB RAM (Contenedor Docker).*
 
