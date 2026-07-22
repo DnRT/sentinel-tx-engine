@@ -1,0 +1,48 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Juan Perez",
+      "email": "juan@example.com"
+    }
+  ],
+  "dispositivos_confiables": [
+    {
+      "id": 1,
+      "usuario_id": 1,
+      "hardware_id": "MAC-12-34-56-78",
+      "es_confiable": true
+    }
+  ],
+  "ips_confiables": [
+    {
+      "id": 1,
+      "usuario_id": 1,
+      "direccion_ip": "190.160.10.20",
+      "es_confiable": true
+    }
+  ],
+  "cuentas_destino": [
+    {
+      "id": 1,
+      "numero_cuenta": "UNI-999888",
+      "nombre_titular": "Universidad XYZ",
+      "tipo": "Institucion Educativa",
+      "nivel_confianza": 95
+    },
+    {
+      "id": 2,
+      "numero_cuenta": "COM-123456",
+      "nombre_titular": "Supermercado Local",
+      "tipo": "Comercio",
+      "nivel_confianza": 60
+    },
+    {
+      "id": 3,
+      "numero_cuenta": "PAR-456789",
+      "nombre_titular": "Pedro Amigo",
+      "tipo": "Particular",
+      "nivel_confianza": 40
+    }
+  ]
+}
